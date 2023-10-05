@@ -202,3 +202,51 @@ object-fit: contain;
 
 /* HEADER
  */
+
+.sitenav{
+  font-size: 13px;
+  line-height: 17px;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+}
+.sitenav__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sitenav__item:not(:last-child) {
+margin-right: 48px;
+}
+.sitenav__link {
+  display: block;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.sitenav__link:hover{
+  color: var(--red);
+}
+.sitenav__link:active{
+ opacity: 0.6;
+}
+
+ .site-header {
+  text-transform: uppercase;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+
+.site-header__logo {
+margin-right: auto;
+}
+/* LOGO */
+.img {
+}
+.site-header__sitenav {
+  margin-right: 48px;
+}
